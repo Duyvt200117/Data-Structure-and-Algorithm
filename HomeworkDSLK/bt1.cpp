@@ -111,7 +111,7 @@ void SortList(SingleList *&list)
             if(svTmp2->maSV<svTmp->maSV)
             {
                 int ma=svTmp->maSV;
-                char ten[150];
+                char hoTen[50];
                 strcpy(ten,svTmp->hoTen);
                  
                 svTmp->maSV=svTmp2->maSV;
