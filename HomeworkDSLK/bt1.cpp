@@ -36,7 +36,7 @@ SinhVien *NhapSinhVien()
     cin>>sv->maSV;
     cin.ignore();
     cout<<"Nhap ho va ten:";
-    gets(sv->ten);
+    gets(sv->HoTen);
     cout<<"Nhap gioi tinh:";
     gets(sv->gioiTinh);
     cout<<"Nhap ngay sinh:";
